@@ -1,5 +1,5 @@
 # README 
-## Project 2: Ames, Iowa Housing Data
+## Ames, Iowa Housing Data Analysis
 ### Contents:
 - [Problem Statement](#Problem-Statement)
 - [Executive Summary](#Executive-Summary)
