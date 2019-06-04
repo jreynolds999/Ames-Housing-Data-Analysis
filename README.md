@@ -4,8 +4,6 @@
 - [Problem Statement](#Problem-Statement)
 - [Executive Summary](#Executive-Summary)
 - [Data Import and Cleaning](#Data-Import-and-Cleaning)
-- [Preliminary EDA](#Preliminary-EDA)
-- [Feature Engineering](#Feature-Engineering)
 - [Model Interpretation](#Model-Interpretation)
 - [Conclusions and Recommendations](#Conclusions-and-Recommendations)
 
@@ -26,7 +24,7 @@ Lasso Model Scores:
  - R^2 Score for Train Data: 0.9210862530033597
  - R^2 Score for Test Data: 0.9176982805183043
 
-Although our models were fairly close in their results, the differences between the train and test splits paint a clear picture as to which model was superior. Given the baseline scores for Linear Model Scaled, Lasso and Ridge, it is apparent that our Lasso model has done the best. This is demonstrated by the difference between the RMSE as well as R^2 scores for train and test data, exhibiting the lowest bias and lowest variance. Additionally, the fact that the training RMSE is higher than the testing RMSE demonstrates that the model is in fact underfit, meaning that it should be able to generalize well to unseen datasets. Further, we can say that the score of 0.9176982805183043 means that our model can account for 91.76982805183043% of the variance of y, or SalePrice, compared to a model with no predictors.
+Although our models were fairly close in their results, the differences between the train and test splits paint a clear picture as to which model was superior. Given the baseline scores for Linear Model Scaled, Lasso and Ridge, it is apparent that our Lasso model has done the best. This is demonstrated by the difference between the RMSE as well as R^2 scores for train and test data, exhibiting the lowest bias and lowest variance. Additionally, the fact that the training RMSE is higher than the testing RMSE demonstrates that the model is in fact underfit, meaning that it should be able to generalize well to unseen datasets. Further, we can say that the score of 0.9176 means that our model can account for 91.77% of the variance of y, or SalePrice, compared to a model with no predictors.
 
 Additionally, our model is limited in the time period of the data collected, which may be impacted by the global financial crisis of 2007-08, as the real estate market was directly impacted by the repercussions of the market dynamics.
 
